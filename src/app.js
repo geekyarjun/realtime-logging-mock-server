@@ -56,7 +56,7 @@ if (config.env === 'production') {
 console.log('IN server');
 app.get('/', function (req, res) {
   console.log('req.ip', req.ip);
-  console.log('req.socket.localAddress', req.socket.localAddress);
+  console.log('req.socket.localAddressAA', req.socket.localAddress);
   console.log('req.socket.remoteAddress', req.socket.remoteAddress);
   console.log('req.connection.remoteAddress', req.connection.remoteAddress);
   console.log('request.headers["x-forwarded-for"]', req.headers['x-forwarded-for']);
